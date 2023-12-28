@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realtime Clock</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <p id="current">Current time</p>
+    <div id="time"></div>
+    <p id="set">Set Alarm</p>
+
+
+    <select id="hour"></select>
+    <select id="minute"></select>
+    <select id="second"></select>
+    <select id="zone"></select>
+
+
+    <div>
+        <button id="btn">Submit</button>
+    </div>
+
+    <div id="settime"></div>
+    <button id="clear">Clear Alarm</button>
+   <audio id="alarmSound">
+    <source src="alarmaudio.wav" type="audio/mpeg">
+   
+  </audio>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
+
