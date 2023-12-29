@@ -1,5 +1,4 @@
 function getDateTime() {
-
     var now = new Date();
     var hour = now.getHours();
     var minute = now.getMinutes();
